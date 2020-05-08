@@ -19,6 +19,6 @@ end
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   foods.detect do |item|
-    item.is_a?(cheese_types.element)
+    item.is_a?(cheese_types)
   end
 end
